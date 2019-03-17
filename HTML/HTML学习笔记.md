@@ -9,7 +9,11 @@
 不常见: area base col command embed keygen param source track wbr
 
 ## 行内元素用法
-### <a>元素
+### <a>标签
 <a> 标签定义超链接，用于从一张页面链接到另一张页面。
 
 <a> 元素最重要的属性是 href 属性，它指示链接的目标。
+```
+<a href="http://www.w3school.com.cn">W3School</a>
+```
+### <b>元素
