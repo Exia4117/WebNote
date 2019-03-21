@@ -38,3 +38,10 @@ p.tip span {
 <select>标签可创建单选或多选菜单。
 <select&> 元素中的 <option> 标签用于定义列表中的可用选项。
 ```
+<select>
+  <option value ="volvo">Volvo</option>
+  <option value ="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+```
