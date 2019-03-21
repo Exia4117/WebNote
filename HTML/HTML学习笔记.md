@@ -27,4 +27,5 @@ p.tip span {
 	color:#ff9955;
 	}
 ```
-###img
+### <img>标签
+<img>标签
