@@ -31,4 +31,5 @@
 	```
 	brew install nginx
 	```
-2. 进入/usr/local/etc/nginx/目录，
+2. 进入/usr/local/etc/nginx/目录，添加文件夹sites-enabled
+3. 新建nginx.conf配置文件，
