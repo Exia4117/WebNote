@@ -48,4 +48,4 @@
     	include /usr/local/etc/nginx/fastcgi.conf;
 	}
 	```
-5. 	
+5. 在第2步中添加的	
