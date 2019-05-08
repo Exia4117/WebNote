@@ -36,4 +36,5 @@
 	```
 	include /usr/local/etc/nginx/sites-enabled/*;
 	```
-	- 表示引入刚创建的
+	- 表示引入刚创建的文件夹下的站点
+4. 
