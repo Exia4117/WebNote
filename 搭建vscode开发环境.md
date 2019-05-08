@@ -37,4 +37,4 @@
 	include /usr/local/etc/nginx/sites-enabled/*;
 	```
 	- 表示引入刚创建的文件夹下的站点
-4. 
+4. 在/usr/local/etc/nginx/conf.d/目录下
