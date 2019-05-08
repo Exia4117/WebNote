@@ -31,4 +31,4 @@
 	```
 	brew install nginx
 	```
-2. 
+2. 进入/usr/local/etc/nginx/目录，
