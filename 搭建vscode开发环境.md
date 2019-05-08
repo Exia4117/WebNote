@@ -37,4 +37,15 @@
 	include /usr/local/etc/nginx/sites-enabled/*;
 	```
 	- 表示引入刚创建的文件夹下的站点
-4. 在/usr/local/etc/nginx/conf.d/目录下
+4. 在/usr/local/etc/nginx/conf.d/目录下，新建文件php-fpm
+	```
+	#proxy the php scripts to php-fpm
+	location ~ \.php$ {
+    	try_files                   $uri = 404;
+    	fastcgi_pass                127.0.0.1:9000;
+    	fastcgi_index               index.php;
+    	fastcgi_intercept_errors    on;
+    	include /usr/local/etc/nginx/fastcgi.conf;
+	}
+	```
+5. 	
