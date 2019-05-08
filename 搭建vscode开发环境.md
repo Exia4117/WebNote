@@ -53,7 +53,7 @@
 	server {
 	listen       80;#如果80被用了可以换成别的,随你开心
 	server_name  localhost;
-	root   /Users/sanshui/Project/ss_calendar_new/public;
+	root   ##页面的根目录##;
 
 	access_log  /usr/local/var/logs/nginx/default.access.log  main;
 
@@ -70,12 +70,13 @@
 
 	location ~ \.php$ {
            	 #root           /var/www;
-            fastcgi_pass   127.0.0.1:9000;
-            fastcgi_index  index.php;
-            fastcgi_param  SCRIPT_FILENAME  /var/www$fastcgi_script_name;
-            include        fastcgi_params;
-        }
+           	 fastcgi_pass   127.0.0.1:9000;
+          	  fastcgi_index  index.php;
+           	 fastcgi_param  SCRIPT_FILENAME  /var/www$fastcgi_script_name;
+           	 include        fastcgi_params;
+        	}
 
-    error_page  404     /404.html;
-    error_page  403     /403.html;
-}	
+    	error_page  404     /404.html;
+    	error_page  403     /403.html;
+	}	
+	```
