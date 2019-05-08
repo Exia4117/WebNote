@@ -21,5 +21,9 @@
 	user = root
 	group = wheel
 	```
+4. 启动php-fpm:
+	```
+sudo php-fpm --fpm-config /private/etc/php-fpm.conf -R
+```
 
 #### 配置nginx作为web服务器，添加相应配置文件
