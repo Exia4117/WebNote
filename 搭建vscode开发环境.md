@@ -48,4 +48,6 @@
     	include /usr/local/etc/nginx/fastcgi.conf;
 	}
 	```
-5. 在第2步中添加的	
+5. 在第2步中添加的sites-enabled目录下，添加default文件配置虚拟主机
+	```
+		
