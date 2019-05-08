@@ -16,6 +16,6 @@
 #### 配置mac自带php-fpm
 1. 进入/private/etc/目录，将php-fpm.conf.default文件复制到该目录下更名为php-fpm.conf
 2. 新建/usr/var/log/php-fpm.log(应对无日志目录的报错）
-3. 
+3. 进入
 
 #### 配置nginx作为web服务器，添加相应配置文件
