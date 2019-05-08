@@ -80,3 +80,4 @@
     	error_page  403     /403.html;
 	}	
 	```
+6. 启动nginx
