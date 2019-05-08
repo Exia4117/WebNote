@@ -23,7 +23,12 @@
 	```
 4. 启动php-fpm:
 	```
-sudo php-fpm --fpm-config /private/etc/php-fpm.conf -R
-```
+	sudo php-fpm --fpm-config /private/etc/php-fpm.conf -R
+	```
 
 #### 配置nginx作为web服务器，添加相应配置文件
+1. 安装nginx
+	```
+	brew install nginx
+	```
+2. 
